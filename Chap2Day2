@@ -1,0 +1,22 @@
+Explain why we wouldn't call changeGreeting in a script.
+  changeGreeting is a request to change something so would be executed as a transaction  Script is for viewing, not changing.
+
+What does the AuthAccount mean in the prepare phase of the transaction?
+  This is to receive suthorization from owner of the transaction  It is a "sign off" of the requested transaction.
+
+What is the difference between the prepare phase and the execute phase in the transaction?
+  The prepare phase is where you can request permission for the transaction. The execute is where to request the changes to be made.
+
+Add two new things inside your contract:
+
+A variable named myNumber that has type Int (set it to 0 when the contract is deployed)
+A function named updateMyNumber that takes in a new number named newNumber as a parameter that has type Int and updates myNumber to be newNumber
+  See pic labeled Chap2Day2.pic1 - I struggled with this one and had to look to others on the discord to complete this one.
+  
+Add a script that reads myNumber from the contract
+  See pic labeled Chap2Day2.pic2 - I was able to get this one!
+
+Add a transaction that takes in a parameter named myNewNumber and passes it into the updateMyNumber function. Verify that your number changed by running the script again.
+  See pics labeled Chap2Day2.pic3 and Chap2Day2.pic4 - Was also able to get this one. 
+  
+  
