@@ -1,0 +1,10 @@
+1.  See pic labeled Chap2Day3.pic1
+2.  See pic labeled Chap2Day3.pic2
+3.  Force-unwrap operator - An ! is added to the end of a thing.  If the thing is nil, the command will abort.
+4.  What the error message means - Expected String, got String? meaning it is not reading string on line one.
+    Why we're getting this error - This I am unsure of.  Does it mean that it wants us to confirm that the string is not nil?  
+    How to fix it - add a ? after string on line 1
+      pub fun main(): String? {
+      
+ I have read this chapter/reviewed the videos A LOT of times and I am struggling with optionals/Force un-wrap.  I would love your feedback.
+ Also, I seem to have a lot of issues on flow playground.  I am on a macbook.  I downloaded Chrome, turned off cookies and it allows me to execute one transaction and then I have to close it, open again to do the next.  If you have any suggestions for this, I would appreciate it!
