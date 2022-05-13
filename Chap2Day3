@@ -6,5 +6,5 @@
     How to fix it - add a ? after string on line 1
       pub fun main(): String? {
       
- I have read this chapter/reviewed the videos A LOT of times and I am struggling with optionals/Force un-wrap.  I would love your feedback.
- Also, I seem to have a lot of issues on flow playground.  I am on a macbook.  I downloaded Chrome, turned off cookies and it allows me to execute one transaction and then I have to close it, open again to do the next.  If you have any suggestions for this, I would appreciate it!
+ I have read this chapter/reviewed the videos A LOT of times and I am struggling with 3 and 4.  Any feedback, additional resources would be much appreciated.  I have zero experience in coding and I am as green as can be.
+ 
