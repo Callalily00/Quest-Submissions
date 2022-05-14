@@ -1,0 +1,9 @@
+Updated response to Q4
+
+4.  a. What the error message means - Expected String, got String?.  The program is expecting a ? becuase there is a dictionary, it is expecting an optional
+    b. Why we're getting this error - Because we are trying to return information from a dictionary.  We are checking to see if the value we are asking it to return, is one of the values listed.  Using a ? (optional) indicator, this will remove the error and return the request.  
+    Thank you for explaining the force unwrap operator !.  I tried it again today and it worked.  It wasn't working for me so I thought it was my error but seems it was the playground.  This basically tells the program to just do it or panic if it is not there.
+    c. How to fix it - add a ? after string on line 1
+      pub fun main(): String? {
+      OR
+      return thing[0x03]!
