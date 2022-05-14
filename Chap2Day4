@@ -1,0 +1,14 @@
+Deploy a new contract that has a Struct of your choosing inside of it (must be different than Profile).
+  See pic labeled Chap2Day4.pic1
+
+Create a dictionary or array that contains the Struct you defined.
+  See pic labeled Chap2Day4.pic1
+
+Create a function to add to that array/dictionary.
+  See pic labeled Chap2Day4.pic1
+  
+Add a transaction to call that function in step 3.
+  See pic labeled Chap2Day4.pic2
+  
+Add a script to read the Struct you defined.
+  See pic labeled Chap2Day4.pic3
