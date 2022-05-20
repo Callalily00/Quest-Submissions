@@ -1,0 +1,5 @@
+3. What is the keyword to make a new resource?  
+    Ah, I see it now.  We need to use the keyword create.  i.e. createGreeting
+    
+4. Can a resource be created in a script or transaction (assuming there isn't a public function to create one)?
+    Resources cannot be created in a script or a transaction.  Must be created in a contract.  Can only exist in one location at a time.  Must be used exactly once.  
